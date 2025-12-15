@@ -1,29 +1,41 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## Brain Tumor Detection from MRI Images using GAN-based Anomaly Detection
+The project focuses on developing an automated system for detecting brain tumors from MRI images using Generative Adversarial Networks (GANs). The system aims to assist radiologists by accurately identifying abnormal regions in brain scans, reducing manual effort and improving early diagnosis.
 
 ## About
 <!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+Brain Tumor Detection from MRI Images using GAN-based Anomaly Detection is a deep learning–based project designed to automatically identify tumor regions in brain MRI scans. Manual examination of MRI images is time-consuming, subjective, and prone to human error. This project overcomes these limitations by employing an unsupervised GAN model trained on healthy MRI images to learn normal brain structures.
+
+During testing, MRI images containing tumors are treated as anomalies, as the GAN fails to reconstruct abnormal regions accurately. The difference between original and reconstructed images highlights potential tumor areas. This approach reduces dependency on large labeled datasets and provides a scalable, efficient, and accurate solution for medical image analysis.
 
 ## Features
 <!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+- GAN-based unsupervised anomaly detection model
+- No requirement for labeled tumor datasets
+- Automatic detection and localization of tumor regions
+- High detection accuracy with reduced false positives
+- Scalable and efficient deep learning architecture
+- Visualization of original, reconstructed, and anomaly maps
+- Reduced time complexity compared to manual diagnosis
 
 ## Requirements
 <!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
-
+Software Requirements
+* Operating System: 64-bit Windows 10 / Ubuntu
+* Programming Language: Python 3.6 or later
+* Deep Learning Framework: TensorFlow (v2.4.1) / Keras
+* Image Processing Library: OpenCV
+* Machine Learning Libraries: NumPy, scikit-learn, Matplotlib
+* IDE: VS Code / Jupyter Notebook
+* Version Control: Git
+* Hardware Requirements
+* Intel i5 or higher processor
+* Minimum 8 GB RAM (16 GB recommended)
+* NVIDIA GPU (optional but recommended for faster training)
+  
+Hardware Requirements
+* Intel i5 or higher processor
+* Minimum 8 GB RAM (16 GB recommended)
+* NVIDIA GPU (optional but recommended for faster training)
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
 
@@ -46,13 +58,18 @@ Note: These metrics can be customized based on your actual performance evaluatio
 
 ## Results and Impact
 <!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+The proposed GAN-based anomaly detection system significantly improves the accuracy and efficiency of brain tumor detection. It reduces diagnostic workload, minimizes human error, and enables early tumor identification, which is crucial for effective treatment planning.
+
+This project demonstrates the effectiveness of unsupervised deep learning in medical imaging and provides a strong foundation for real-world clinical decision support systems. It contributes toward intelligent healthcare solutions and promotes AI-driven medical diagnostics.
 
 This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+
+Schlegl, T. et al., Unsupervised Anomaly Detection with Generative Adversarial Networks to Guide Marker Discovery, IPMI, 2017.
+Baur, C. et al., f-AnoGAN: Fast Unsupervised Anomaly Detection with GANs, Medical Image Analysis, 2020.
+Deepak, S. et al., Brain Tumor Classification Using Deep CNN, Biomedical Signal Processing and Control, 2019.
+Yurtsever, M. M. E. et al., GAN-based Augmentation for Brain Tumor MRI, BMC Medical Informatics, 2024.
 
 
 
